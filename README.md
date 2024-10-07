@@ -1,5 +1,6 @@
 # Matthew J. Peters Portfolio
-
+# Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7439b05a-69ee-40cf-8df2-226e800997c4/deploy-status)](https://app.netlify.com/sites/mattpeters-dev/deploys)
 ## Overview
 
 This project is a personal portfolio built with Next.js, showcasing my work and skills. It is designed to attract recruiters and collaborators, featuring a filterable portfolio and a simple blog.
