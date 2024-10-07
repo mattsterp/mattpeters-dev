@@ -1,9 +1,11 @@
 # Matthew J. Peters Portfolio
 
 ## Overview
+
 This project is a personal portfolio built with Next.js, showcasing my work and skills. It is designed to attract recruiters and collaborators, featuring a filterable portfolio and a simple blog.
 
 ## Technologies Used
+
 - **Next.js**: A React framework for building server-side rendered applications.
 - **ShadCN**: A component library for building user interfaces.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
@@ -12,20 +14,24 @@ This project is a personal portfolio built with Next.js, showcasing my work and 
 - **React**: A JavaScript library for building user interfaces.
 
 ## Installation Instructions
+
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/matthew-j-peters-portfolio.git
    cd matthew-j-peters-portfolio
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run the development server:
+
    ```bash
    npm run dev
    ```
@@ -33,6 +39,7 @@ To set up the project locally, follow these steps:
 4. Open your browser and navigate to `http://localhost:3000`.
 
 ## Scripts
+
 The following scripts are available for use:
 
 - **Development**: `npm run dev` - Starts the development server.
@@ -42,12 +49,12 @@ The following scripts are available for use:
 - **Deploy**: `npm run deploy` - Deploys the application to Netlify.
 
 ## Usage
+
 - **Filterable Portfolio**: Users can filter projects based on categories.
 - **Blog**: A simple blog section is available, which is still under development.
 
-# Project File Structure Overview
+## Project File Structure Overview
 
-```
 .
 ├── README.md                # Project documentation and overview
 ├── app                      # Next.js App Router directory for pages and components
@@ -67,7 +74,7 @@ The following scripts are available for use:
 ├── public                   # Static assets (images, fonts, etc.)
 ├── tailwind.config.ts       # Configuration for Tailwind CSS
 └── tsconfig.json            # TypeScript configuration file
-```
+`
 
 ## Directory and File Descriptions
 
@@ -93,7 +100,9 @@ The following scripts are available for use:
 Feel free to expand on any specific sections or ask if you need more details about any part of your project!
 
 ## License
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contributing
+
 Contributions are not currently being accepted for this project.
