@@ -24,6 +24,7 @@ export default function Header() {
 
   const navItems = [
     { href: "/", label: "Home" },
+    { href: "/blog", label: "Blog" },
     { href: "/about", label: "About" },
     { href: "/projects", label: "Projects" },
     { href: "/resume", label: "Resume" },
@@ -31,14 +32,19 @@ export default function Header() {
   ];
 
   return (
-    <header 
+    <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/80 backdrop-blur-md shadow-md" : "bg-transparent"
+        scrolled
+          ? "bg-background/80 backdrop-blur-md shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold hover:text-primary transition-colors">
+          <Link
+            href="/"
+            className="text-2xl font-bold hover:text-primary transition-colors"
+          >
             Matthew J Peters
           </Link>
           <nav className="hidden md:block">
