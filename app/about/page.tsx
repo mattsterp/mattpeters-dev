@@ -9,21 +9,24 @@ export default function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 items-start">
         <div className="space-y-6">
           <div>
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">Background and Experience</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+              Background and Experience
+            </h2>
             <p className="mb-4 text-sm sm:text-base">
-              Hey there! I'm a passionate full-stack developer with a knack for creating
-              innovative solutions. My journey in tech has led me to found two exciting
-              ventures: Soundlink and AppCat.
+              Hey there! I'm a passionate full-stack developer with a knack for
+              creating innovative solutions. My journey in tech has led me to
+              found two exciting ventures: Soundlink and AppCat.
             </p>
             <p className="mb-4 text-sm sm:text-base">
-              With Soundlink, I've built a thriving community for creatives, while AppCat
-              allows me to help non-coders bring their AI projects to life. These experiences
-              have honed my skills in both development and entrepreneurship.
+              With Soundlink, I've built a thriving community for creatives,
+              while AppCat allows me to help non-coders bring their AI projects
+              to life. These experiences have honed my skills in both
+              development and entrepreneurship.
             </p>
           </div>
           <div className="relative w-full aspect-square rounded-lg overflow-hidden">
             <Image
-              src="https://source.unsplash.com/400x400/?portrait,developer"
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=800&fit=crop"
               alt="Your Name"
               width={400}
               height={400}
@@ -32,7 +35,9 @@ export default function About() {
           </div>
         </div>
         <div>
-          <h2 className="text-xl sm:text-2xl font-semibold mb-4">Skills and Expertise</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+            Skills and Expertise
+          </h2>
           <ul className="list-disc list-inside mb-4 text-sm sm:text-base space-y-2">
             <li>Full-stack Development (React, Node.js, Next.js)</li>
             <li>Database Management (MongoDB, PostgreSQL)</li>
